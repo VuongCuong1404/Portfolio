@@ -233,7 +233,7 @@ footer {
 }
 
 /* Responsive-Design mobile Geräte 
-   Tối ưu hóa cho thiết bị di độngđộng*/
+   Tối ưu hóa cho thiết bị di động*/
 @media (max-width: 768px) {
     .profile {
         flex-direction: column;
