@@ -65,72 +65,87 @@ const translations = {
             <h2>Berufserfahrung</h2>
     <div class="job">
         <p><strong>GISA GmbH </strong> (Hanoi, Vietnam)
-            <!-- <br> https://gisasolutions.vn/ -->
-            <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/
-            </a>
+                    <!-- <br> https://gisasolutions.vn/ -->
+                    <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/
+                    </a>
 
-        </p>
+                </p>
 
-        <h3>Security and Network Operation Center (SOC & NOC)<span>seit 01.2025</span></h3>
+                <h3>GISA Solutions Vietnam - NOC Monitoring <span>seit 01.2025</span> </h3>
+                <ul>
+                    <li>Überwachung von IT-Systemen und Alarmmeldungen mithilfe von Zabbix.</li>
+                    <li>Beobachtung von Systemmeldungen und Auffälligkeiten im laufenden Betrieb.</li>
+                    <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen</li>
+                    <li>Weiterleitung bzw. Eskalation relevanter Meldungen an die zuständigen Teams gemäß den
+                        vorgegebenen Prozessen.</li>
+                    <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
+                    <li>Teilnahme an der Bereitschaft gemäß den betrieblichen Vorgaben.</li>
+                </ul>
 
-        <h5>Security Operation Center (SOC)</h5>
-        <ul>
-            <li>Überwachung von Sicherheitsereignissen und -vorfällen in Echtzeit.</li>
-            <li>Zusammenarbeit mit dem deutschen NOC-Team zur Behebung von Sicherheitslücken</li>
-        </ul>
+                <!-- <br> https://gisasolutions.vn/ -->
 
-        <h5>Network Operation Center (NOC)</h5>
-        <ul>
-            <li>Netzwerk- und Serverinfrastrukturüberwachung</li>
-            <li>Verwendung von Tools wie Zabbix</li>
-            <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen</li>
-            <li>Eskalation bei schwerwiegenden Problemen.</li>
-            <li>Protokollierung von Vorfällen und durchgeführten Maßnahmen.</li>
-            <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
-        </ul>
+                <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC)<span>01.2025 - 03.2026</span>
+                </h3>
 
-        <h3>IT Service Management (ITSM) <span>seit 04.2022</span> </h3>
-        <ul>
-            <li>Störungen (Incidents) schnell beheben und den normalen Betrieb wiederherstellen</li>
-            <li>Überwachung und Verwaltung von IT-Service-Anfragen über das Ticketsystem.</li>
-            <li>Zusammenarbeit mit globalen IT-Support-Teams zur Sicherstellung der Servicequalität.</li>
-            <li>Implementierung, Verwaltung und Wartung von ITSM-Tools.</li>
-            <li>Verwaltung von IT-Assets und Konfigurationsmanagement.</li>
-        </ul>
+                <!-- <h5>Security Operation Center (SOC)</h5> -->
+                <ul>
+                    <li>Überwachung von Sicherheits-Dashboards und angezeigten Ereignissen.</li>
+                    <li>Beobachtung auffälliger Meldungen im Rahmen der vorgegebenen Monitoring-Prozesse.</li>
+                    <li>Dokumentation relevanter Ereignisse und Unterstützung der Ticketbearbeitung, soweit im eigenen
+                        Aufgabenbereich.</li>
+                </ul>
+
+                <h3>GISA Solutions Vietnam - IT Service Management (ITSM) <span>04.2022 -12.2024</span> </h3>
+                <ul>
+                    <li>Erstellung und Anpassung von Views in Microsoft SQL Server.</li>
+                    <li>Verwaltung von Benutzerkonten und Benutzergruppen im Rahmen der zugewiesenen administrativen
+                        Berechtigungen.</li>
+                    <li>Erstellung, Änderung und Pflege von Benutzern und Gruppen sowie Zuweisung von
+                        Zugriffsberechtigungen.</li>
+                    <li>Bearbeitung von IT-Service-Anfragen und Unterstützung bei der Ticketbearbeitung im Rahmen des
+                        eigenen Aufgabenbereichs.</li>
+                    <li>Arbeit mit ITSM-Tools, insbesondere CA Service Desk und USU Service Management.</li>
+                    <li>Zusammenarbeit mit globalen IT-Support-Teams zur Sicherstellung der Servicequalität.</li>
+
+                </ul>
     </div>
 
     <div class="job">
         <p><strong>EXELLIENT GmbH</strong> (Darmstadt, DE)
-            <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
-        </p>
-        <h3>Junior Developer Support <span>08.2021 – 02.2022</span></h3>
-        <p>
-            Unterstützung des Entwicklerteams bei der Erstellung von Webanwendungen.
-            Arbeit mit Frontend-Technologien (HTML, CSS) und Einarbeitung in Angular-Frameworks.
-            Konfiguration und Einsatz von Microsoft SQL-Datenbanken.
-        </p>
-        <ul>
-            <li>Mitarbeit an Frontend-Komponenten mit HTML und CSS.</li>
-            <li>Erste Erfahrungen mit Angular-Frameworks gesammelt.</li>
-            <li>Aufbau und Einrichtung von Microsoft SQL-Datenbanken.</li>
-            <li>Unterstützung des Entwicklerteams bei verschiedenen Aufgaben.</li>
-        </ul>
+                    <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
+                </p>
+                <h3>Junior Developer Support <span>08.2021 – 02.2022</span></h3>
+                <!-- 
+                <p>
+                    Unterstützung des Entwicklerteams bei der Erstellung von Webanwendungen.
+                    Arbeit mit Frontend-Technologien (HTML, CSS) und Einarbeitung in Angular-Frameworks.
+                    Konfiguration und Einsatz von Microsoft SQL-Datenbanken.
+                </p>
+                -->
+                <ul>
+                    <li>Mitarbeit im Entwicklerteam an einem Tool zur Verwaltung von Krankenhausprozessen.</li>
+                    <li>Unterstützung bei der Entwicklung und Anpassung von Frontend-Komponenten mit HTML und CSS.</li>
+                    <li>Erste praktische Erfahrungen mit dem Angular-Framework gesammelt.</li>
+                    <li>Unterstützung beim Aufbau und bei der Einrichtung von Microsoft-SQL-Datenbanken.</li>
+                    <li>Unterstützung des Entwicklerteams bei technischen Aufgaben im Rahmen des Projekts.</li>
+                </ul>
     </div>
 
 
     <div class="job">
         <p><strong>HQ TECH GmbH</strong> (Berlin, DE)
-            <!-- <br>http://www.hqtech.de/ -->
-            <br> <a href="http://www.hqtech.de/" target="_blank">http://www.hqtech.de/
-            </a>
-        </p>
+                    <!-- <br>http://www.hqtech.de/ -->
+                    <br> <a href="http://www.hqtech.de/" target="_blank">http://www.hqtech.de/
+                    </a>
+                </p>
 
-        <h3>IT Support Specialist <span>01.2018 – 01.2019</span></h3>
-        <ul>
-            <li>Überwachung und Wartung von IT-Systemen.</li>
-            <li>Fehlerbehebung und Systemproblemlösungen.</li>
-            <li>Entwicklung und Umsetzung optimaler Lösungen.</li>
-        </ul>
+                <h3>IT Support Specialist <span>01.2018 – 01.2019</span></h3>
+                <ul>
+                    <li>Technischer Support für Kassensysteme (POS-Systeme).</li>
+                    <li>Installation und Konfiguration von Netzwerkverbindungen für den Betrieb der Kassensysteme.</li>
+                    <li>Unterstützung bei der Einrichtung und Inbetriebnahme der angeschlossenen Systeme.</li>
+                    <li>Unterstützung bei technischen Störungen im Rahmen des eigenen Aufgabenbereichs.</li>
+                </ul>
     </div>
 
     <!-- </section> -->
@@ -140,14 +155,14 @@ const translations = {
 
     <div class="edu">
         <h3>Universität Potsdam <span>10.2020 - 03.2021</span> </h3>
-        <p>Bachelor of Science - BS, Informatik/Computational Science </p>
+        <p>Studium im Bereich Informatik / Computational Science (ohne Abschluss).</p>
     </div>
 
     <div class="edu">
         <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
-        <p>Berufsabschluss als Technische Assistenten mit Fachhochschulreife
-            <br>Fachrichtung Elektronik und Datentechnik
-        </p>
+                <p>Berufsabschluss als Technische Assistenten mit Fachhochschulreife
+                    <br>Fachrichtung Elektronik und Datentechnik
+                </p>
     </div>
     <!-- </section> -->
 
@@ -155,52 +170,111 @@ const translations = {
     <h2>Kenntnisse</h2>
                 <h4>Sprachkenntnisse</h4>
             <ul>
-                Deutsch (Gute Kenntnisse), Englisch (Grundkenntnisse), Vietnamesisch (Gute Kenntnisse)
+                <li>Deutsch (gute Kenntnisse)</li>
+                <li>Englisch (Grundkenntnisse)</li>
+                <li>Vietnamesisch (gute Kenntnisse)</li>
             </ul>
 
             <h4>IT-Kenntnisse</h4>
     <div class="skills-row">
         <div class="skills-col">
-            <h3>IT-Support</h3>
-            <ul>
-                <li>ITSM</li>
-                <li>Jira Service Desk</li>
-            </ul>
+            <h3>IT Service Management</h3>
+                    <ul>
+                        <li>CA Service Desk</li>
+                        <li>Jira Service Desk</li>
+                        <li>USU Service Management</li>
+                        <li>Ticketbearbeitung</li>
+                    </ul>
 
-            <h3>Programmiersprachen</h3>
-            <ul>
-                <li>Java</li>
-                <li>HTML/CSS/JavaScript</li>
-            </ul>
-        </div>
-        <div class="skills-col">
-            <h3>Datenbanken</h3>
-            <ul>
-                <li>SQL Server</li>
-                <li>SQL Lite</li>
-            </ul>
-            <h3>Tools</h3>
-            <ul>
-                <li>VS Code</li>
-                <li>Android Studio</li>
-                <li>Microsoft SQL Server Management Studio</li>
-            </ul>
-        </div>
+                    <h3>Benutzer- und Berechtigungsverwaltung</h3>
+                    <ul>
+                        <li>Benutzerkonten</li>
+                        <li>Benutzergruppen</li>
+                        <li>Zugriffsberechtigungen</li>
+
+                    </ul>
+
+                    <h3>Monitoring</h3>
+                    <ul>
+                        <li>Zabbix</li>
+                        <li>Alarmüberwachung</li>
+                        <li>Ticketerfassung</li>
+
+                    </ul>
+
+                    <h3>Programmiersprachen</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Angular (Grundkenntnisse)</li>
+                    </ul>
+                </div>
+                <div class="skills-col">
+                    <h3>Datenbanken</h3>
+                    <ul>
+                        <li>Microsoft SQL Server</li>
+                        <li>SQL-Views</li>
+                        <li>SQL Server Management Studio</li>
+
+                    </ul>
+                    <h3>Weitere Tools</h3>
+                    <ul>
+                        <li>VS Code</li>
+                        <li>Android Studio</li>
+                    </ul>
+                </div>
     </div>
 
     <h2>Zertifikate</h2>
 
     <div class="cert">
-        <h3>Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn bei LinkedIn
-            <span>März
-                2025</span>
-        </h3>
-        <h3>Jira Service Desk/Management Grundkurs bei LinkedIn <span>März 2025</span></h3>
-        <h3>SQL lernen bei LinkedIn <span>Nov. 2024</span></h3>
-        <h3>Grundlagen der Programmierung:Datenbanken bei LinkedIn <span>Aug 2024</span></h3>
-        <h3>Grundlagen der Programmierung:Basiswissen bei LinkedIn <span>Juni 2024</span></h3>
-        <h3>ECDL (Europäischer Computerführerschein) / MS Office, Windows 7, Outlook 2013 bei Campus
-            Berufsausbildung e.V. Berlin <span>Apr 2017</span></h3>
+        <h3>
+                    <a href="https://www.linkedin.com/learning/certificates/52fdd3a8e70f188abc63803acb325a633b948cb998d791c5a7ec4b95e0b8bef2?contentTrackingId=LBHoxyPuT5qEGp2UZzWHkg%3D%3D&viewName=premium-nav-upsell-text&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text%3ANav%3AIn-Product"
+                        target="_blank" rel="noopener noreferrer">
+                        Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn bei LinkedIn
+                    </a>
+                    <span>März 2025</span>
+                </h3>
+                <h3>
+                    <a href="https://www.linkedin.com/learning/certificates/b731e7da1299ba6e49979199095067c5c7e96a60143b0ceb029668126218df37?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
+                        target="_blank" rel="noopener noreferrer">
+                        Jira Service Desk/Management Grundkurs bei LinkedIn
+                    </a>
+                    <span>März 2025</span>
+                </h3>
+
+                <h3>
+                    <a href="https://www.linkedin.com/learning/certificates/673f844f6174be71e2bdbadc208b5510eb55ad9c06e096f8b4dc7bdbb4b9115e?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
+                        target="_blank" rel="noopener noreferrer">
+                        SQL lernen bei LinkedIn
+                    </a>
+                    <span>Nov. 2024</span>
+                </h3>
+
+                <h3>
+                    <a href="https://www.linkedin.com/learning/certificates/85da0b47300453e5cfece379a07e03627fd8c4c30b9bd06179c278d23eb35230?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
+                        target="_blank" rel="noopener noreferrer">
+                        Grundlagen der Programmierung:Datenbanken bei LinkedIn
+                    </a>
+                    <span>Aug 2024</span>
+                </h3>
+
+                <h3>
+                    <a href="https://www.linkedin.com/learning/certificates/2025849230e066601bee127b5eab24c6f6cb7f836e2c7ab947765ef962689378?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
+                        target="_blank" rel="noopener noreferrer">
+                        Grundlagen der Programmierung:Basiswissen bei LinkedIn
+                    </a>
+                    <span>Juni 2024</span>
+                </h3>
+
+                <h3>
+
+                    ECDL (Europäischer Computerführerschein) / MS Office, Windows 7, Outlook 2013 bei Campus
+                    Berufsausbildung e.V. Berlin
+
+                    <span>Apr 2017</span>
+                </h3>
     </div>
         `
     },
