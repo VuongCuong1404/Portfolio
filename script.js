@@ -88,10 +88,9 @@ const translations = {
 
                 <h3>GISA Solutions Vietnam - NOC Monitoring <span>seit 01.2025</span></h3>
                 <ul>
-                    <li>Überwachung von IT-Systemen und Alarmmeldungen mithilfe von Zabbix.</li>
                     <li>Beobachtung von Systemmeldungen und Auffälligkeiten im laufenden Betrieb.</li>
-                    <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen.</li>
-                    <li>Erfassung und Dokumentation erkannter Alarme und Störungen im Ticketsystem.</li>
+                    <li>Überwachung von IT-Systemen und Alarmmeldungen mithilfe von Zabbix. Erfassung und
+                        Dokumentation erkannter Alarme und Störungen im Ticketsystem.</li>
                     <li>Weiterleitung bzw. Eskalation relevanter Meldungen an die zuständigen Teams gemäß den
                         vorgegebenen Prozessen.</li>
                     <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
@@ -336,10 +335,9 @@ const translations = {
         </p>
         <h3>GISA Solutions Vietnam - NOC Monitoring <span>Jan 2025 – Present</span></h3>
         <ul>
-            <li>Monitoring IT systems and alerts using Zabbix.</li>
             <li>Observing system notifications and unusual activity during operations.</li>
-            <li>Quickly identifying and resolving network or system incidents.</li>
-            <li>Recording and documenting detected alerts and incidents in the ticketing system.</li>
+            <li>Monitoring IT systems and alerts using Zabbix. Recording and documenting detected alerts and
+                incidents in the ticketing system.</li>
             <li>Forwarding or escalating relevant alerts to the responsible teams in accordance with established
                 processes.</li>
             <li>Preparing network documentation and status reports.</li>
@@ -511,10 +509,9 @@ const translations = {
         </p>
         <h3>GISA Solutions Vietnam - Giám sát NOC <span>Từ 01/2025 – hiện nay</span></h3>
         <ul>
-            <li>Giám sát hệ thống CNTT và cảnh báo bằng Zabbix.</li>
             <li>Theo dõi thông báo hệ thống và các dấu hiệu bất thường trong quá trình vận hành.</li>
-            <li>Phát hiện và xử lý nhanh sự cố mạng hoặc hệ thống.</li>
-            <li>Ghi nhận và lập tài liệu về các cảnh báo, sự cố được phát hiện trên hệ thống ticket.</li>
+            <li>Giám sát hệ thống CNTT và cảnh báo bằng Zabbix; ghi nhận và lập tài liệu về các cảnh báo, sự cố
+                được phát hiện trên hệ thống ticket.</li>
             <li>Chuyển tiếp hoặc báo cáo sự cố liên quan đến các nhóm phụ trách theo đúng quy trình.</li>
             <li>Lập tài liệu mạng và báo cáo trạng thái.</li>
             <li>Tham gia trực theo yêu cầu vận hành.</li>
