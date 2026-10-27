@@ -86,11 +86,12 @@ const translations = {
 
                 </p>
 
-                <h3>GISA Solutions Vietnam - NOC Monitoring <span>seit 01.2025</span> </h3>
+                <h3>GISA Solutions Vietnam - NOC Monitoring <span>seit 01.2025</span></h3>
                 <ul>
                     <li>Überwachung von IT-Systemen und Alarmmeldungen mithilfe von Zabbix.</li>
                     <li>Beobachtung von Systemmeldungen und Auffälligkeiten im laufenden Betrieb.</li>
-                    <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen</li>
+                    <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen.</li>
+                    <li>Erfassung und Dokumentation erkannter Alarme und Störungen im Ticketsystem.</li>
                     <li>Weiterleitung bzw. Eskalation relevanter Meldungen an die zuständigen Teams gemäß den
                         vorgegebenen Prozessen.</li>
                     <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
@@ -99,7 +100,8 @@ const translations = {
 
                 <!-- <br> https://gisasolutions.vn/ -->
 
-                <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC)<span>01.2025 - 03.2026</span>
+                <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC, parallel zum NOC)
+                    <span>01.2025 – 03.2026</span>
                 </h3>
 
                 <!-- <h5>Security Operation Center (SOC)</h5> -->
@@ -110,7 +112,7 @@ const translations = {
                         Aufgabenbereich.</li>
                 </ul>
 
-                <h3>GISA Solutions Vietnam - IT Service Management (ITSM) <span>04.2022 -12.2024</span> </h3>
+                <h3>GISA Solutions Vietnam - IT Service Management (ITSM) <span>04.2022 – 01.2025</span></h3>
                 <ul>
                     <li>Erstellung und Anpassung von Views in Microsoft SQL Server.</li>
                     <li>Verwaltung von Benutzerkonten und Benutzergruppen im Rahmen der zugewiesenen administrativen
@@ -121,7 +123,8 @@ const translations = {
                         eigenen Aufgabenbereichs.</li>
                     <li>Arbeit mit ITSM-Tools, insbesondere CA Service Desk und USU Service Management.</li>
                     <li>Zusammenarbeit mit globalen IT-Support-Teams zur Sicherstellung der Servicequalität.</li>
-
+                    <li>Seit 01.2025 weiterhin Mitglied der ITSM-Gruppe und mit administrativen Berechtigungen;
+                        operative ITSM-Aufgaben nur noch bei Bedarf.</li>
                 </ul>
     </div>
 
@@ -169,13 +172,13 @@ const translations = {
     <h2>Ausbildung</h2>
 
     <div class="edu">
-        <h3>Universität Potsdam <span>10.2020 - 03.2021</span> </h3>
+        <h3>Universität Potsdam <span>10.2020 – 03.2021</span></h3>
         <p>Studium im Bereich Informatik / Computational Science (ohne Abschluss).</p>
     </div>
 
     <div class="edu">
-        <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
-                <p>Berufsabschluss als Technische Assistenten mit Fachhochschulreife
+        <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 – 08.2020</span></h3>
+                <p>Berufsabschluss als Technischer Assistent mit Fachhochschulreife
                     <br>Fachrichtung Elektronik und Datentechnik
                 </p>
     </div>
@@ -229,7 +232,7 @@ const translations = {
                     <h3>Datenbanken</h3>
                     <ul>
                         <li>Microsoft SQL Server</li>
-                        <li>SQL-Views</li>
+                        <li>Erstellung und Anpassung von SQL-Views</li>
                         <li>SQL Server Management Studio</li>
 
                     </ul>
@@ -247,14 +250,14 @@ const translations = {
         <h3>
                     <a href="https://www.linkedin.com/learning/certificates/52fdd3a8e70f188abc63803acb325a633b948cb998d791c5a7ec4b95e0b8bef2?contentTrackingId=LBHoxyPuT5qEGp2UZzWHkg%3D%3D&viewName=premium-nav-upsell-text&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text%3ANav%3AIn-Product"
                         target="_blank" rel="noopener noreferrer">
-                        Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn bei LinkedIn
+                        Grundwissen Softwareentwicklung – bereitgestellt von Microsoft und LinkedIn
                     </a>
                     <span>März 2025</span>
                 </h3>
                 <h3>
                     <a href="https://www.linkedin.com/learning/certificates/b731e7da1299ba6e49979199095067c5c7e96a60143b0ceb029668126218df37?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
                         target="_blank" rel="noopener noreferrer">
-                        Jira Service Desk/Management Grundkurs bei LinkedIn
+                        Jira Service Desk/Management-Grundkurs bei LinkedIn
                     </a>
                     <span>März 2025</span>
                 </h3>
@@ -264,21 +267,21 @@ const translations = {
                         target="_blank" rel="noopener noreferrer">
                         SQL lernen bei LinkedIn
                     </a>
-                    <span>Nov. 2024</span>
+                    <span>November 2024</span>
                 </h3>
 
                 <h3>
                     <a href="https://www.linkedin.com/learning/certificates/85da0b47300453e5cfece379a07e03627fd8c4c30b9bd06179c278d23eb35230?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
                         target="_blank" rel="noopener noreferrer">
-                        Grundlagen der Programmierung:Datenbanken bei LinkedIn
+                        Grundlagen der Programmierung: Datenbanken bei LinkedIn
                     </a>
-                    <span>Aug 2024</span>
+                    <span>August 2024</span>
                 </h3>
 
                 <h3>
                     <a href="https://www.linkedin.com/learning/certificates/2025849230e066601bee127b5eab24c6f6cb7f836e2c7ab947765ef962689378?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAEiON694TNWDjUAE9pRD9Q%3D%3D"
                         target="_blank" rel="noopener noreferrer">
-                        Grundlagen der Programmierung:Basiswissen bei LinkedIn
+                        Grundlagen der Programmierung: Basiswissen bei LinkedIn
                     </a>
                     <span>Juni 2024</span>
                 </h3>
@@ -288,7 +291,7 @@ const translations = {
                     ECDL (Europäischer Computerführerschein) / MS Office, Windows 7, Outlook 2013 bei Campus
                     Berufsausbildung e.V. Berlin
 
-                    <span>Apr 2017</span>
+                    <span>April 2017</span>
                 </h3>
     </div>
         `
@@ -331,18 +334,19 @@ const translations = {
         <p><strong>GISA GmbH</strong> (Hanoi, Vietnam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
         </p>
-        <h3>GISA Solutions Vietnam - NOC Monitoring <span>since 01.2025</span></h3>
+        <h3>GISA Solutions Vietnam - NOC Monitoring <span>Jan 2025 – Present</span></h3>
         <ul>
             <li>Monitoring IT systems and alerts using Zabbix.</li>
             <li>Observing system notifications and unusual activity during operations.</li>
             <li>Quickly identifying and resolving network or system incidents.</li>
+            <li>Recording and documenting detected alerts and incidents in the ticketing system.</li>
             <li>Forwarding or escalating relevant alerts to the responsible teams in accordance with established
                 processes.</li>
             <li>Preparing network documentation and status reports.</li>
             <li>Participating in on-call duty in accordance with operational requirements.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC)
-            <span>01.2025 - 03.2026</span></h3>
+        <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC, alongside NOC)
+            <span>Jan 2025 – Mar 2026</span></h3>
         <ul>
             <li>Monitoring security dashboards and displayed events.</li>
             <li>Observing unusual alerts as part of established monitoring processes.</li>
@@ -350,7 +354,7 @@ const translations = {
                 responsibilities.</li>
         </ul>
         <h3>GISA Solutions Vietnam - IT Service Management (ITSM)
-            <span>04.2022 - 12.2024</span></h3>
+            <span>Apr 2022 – Jan 2025</span></h3>
         <ul>
             <li>Creating and modifying views in Microsoft SQL Server.</li>
             <li>Managing user accounts and groups within assigned administrative permissions.</li>
@@ -359,6 +363,8 @@ const translations = {
                 responsibilities.</li>
             <li>Working with ITSM tools, particularly CA Service Desk and USU Service Management.</li>
             <li>Collaborating with global IT support teams to ensure service quality.</li>
+            <li>Since Jan 2025, continued membership in the ITSM group and retention of assigned administrative
+                permissions; operational ITSM tasks performed only as needed.</li>
         </ul>
     </div>
 
@@ -366,7 +372,7 @@ const translations = {
         <p><strong>EXELLIENT GmbH</strong> (Darmstadt, Germany)
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
-        <h3>Junior Developer Support <span>08.2021 – 02.2022</span></h3>
+        <h3>Junior Developer Support <span>Aug 2021 – Feb 2022</span></h3>
         <ul>
             <li>Contributed to a developer team building a tool for managing hospital processes.</li>
             <li>Assisted with developing and adapting frontend components using HTML and CSS.</li>
@@ -380,7 +386,7 @@ const translations = {
         <p><strong>HQ TECH GmbH</strong> (Berlin, DE)
             <br> <a href="http://www.hqtech.de/" target="_blank">http://www.hqtech.de/</a>
         </p>
-        <h3>IT Support Specialist <span>01.2018 – 01.2019</span></h3>
+        <h3>IT Support Specialist <span>Jan 2018 – Jan 2019</span></h3>
         <ul>
             <li>Providing technical support for point-of-sale (POS) systems.</li>
             <li>Installing and configuring network connections for POS system operations.</li>
@@ -391,11 +397,11 @@ const translations = {
 
     <h2>Education</h2>
     <div class="edu">
-        <h3>University of Potsdam <span>10.2020 - 03.2021</span></h3>
+        <h3>University of Potsdam <span>Oct 2020 – Mar 2021</span></h3>
         <p>Studies in Computer Science / Computational Science (no degree completed).</p>
     </div>
     <div class="edu">
-        <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
+        <h3>Campus Berufsausbildung e.V. Berlin <span>Aug 2015 – Aug 2020</span></h3>
         <p>Vocational qualification as a Technical Assistant with a university of applied sciences entrance
             qualification<br>
             Specialization in Electronics and Data Technology</p>
@@ -442,7 +448,7 @@ const translations = {
             <h3>Databases</h3>
             <ul>
                 <li>Microsoft SQL Server</li>
-                <li>SQL views</li>
+                <li>Creating and modifying SQL views</li>
                 <li>SQL Server Management Studio</li>
             </ul>
             <h3>Additional Tools</h3>
@@ -503,24 +509,25 @@ const translations = {
         <p><strong>GISA GmbH</strong> (Hà Nội, Việt Nam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
         </p>
-        <h3>GISA Solutions Vietnam - Giám sát NOC <span>Từ 01.2025</span></h3>
+        <h3>GISA Solutions Vietnam - Giám sát NOC <span>Từ 01/2025 – hiện nay</span></h3>
         <ul>
             <li>Giám sát hệ thống CNTT và cảnh báo bằng Zabbix.</li>
             <li>Theo dõi thông báo hệ thống và các dấu hiệu bất thường trong quá trình vận hành.</li>
             <li>Phát hiện và xử lý nhanh sự cố mạng hoặc hệ thống.</li>
+            <li>Ghi nhận và lập tài liệu về các cảnh báo, sự cố được phát hiện trên hệ thống ticket.</li>
             <li>Chuyển tiếp hoặc báo cáo sự cố liên quan đến các nhóm phụ trách theo đúng quy trình.</li>
             <li>Lập tài liệu mạng và báo cáo trạng thái.</li>
             <li>Tham gia trực theo yêu cầu vận hành.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - Trung tâm vận hành an ninh và mạng (SOC)
-            <span>01.2025 - 03.2026</span></h3>
+        <h3>GISA Solutions Vietnam - Trung tâm vận hành an ninh (SOC, song song với NOC)
+            <span>01/2025 – 03/2026</span></h3>
         <ul>
             <li>Giám sát bảng điều khiển an ninh và các sự kiện được hiển thị.</li>
             <li>Theo dõi các cảnh báo bất thường theo quy trình giám sát đã được quy định.</li>
             <li>Ghi nhận sự kiện liên quan và hỗ trợ xử lý ticket trong phạm vi trách nhiệm được giao.</li>
         </ul>
         <h3>GISA Solutions Vietnam - Quản lý dịch vụ CNTT (ITSM)
-            <span>04.2022 - 12.2024</span></h3>
+            <span>04/2022 – 01/2025</span></h3>
         <ul>
             <li>Tạo và điều chỉnh các view trong Microsoft SQL Server.</li>
             <li>Quản lý tài khoản và nhóm người dùng trong phạm vi quyền quản trị được giao.</li>
@@ -528,6 +535,8 @@ const translations = {
             <li>Tiếp nhận yêu cầu dịch vụ CNTT và hỗ trợ xử lý ticket trong phạm vi trách nhiệm được giao.</li>
             <li>Sử dụng các công cụ ITSM, đặc biệt là CA Service Desk và USU Service Management.</li>
             <li>Phối hợp với các nhóm hỗ trợ CNTT toàn cầu để đảm bảo chất lượng dịch vụ.</li>
+            <li>Từ 01/2025, tiếp tục là thành viên nhóm ITSM và giữ các quyền quản trị được giao; chỉ thực hiện
+                các nhiệm vụ ITSM khi cần.</li>
         </ul>
     </div>
 
@@ -535,7 +544,7 @@ const translations = {
         <p><strong>EXELLIENT GmbH</strong> (Darmstadt, Đức)
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
-        <h3>Hỗ trợ phát triển phần mềm (Junior Developer Support) <span>08.2021 – 02.2022</span></h3>
+        <h3>Hỗ trợ phát triển phần mềm (Junior Developer Support) <span>08/2021 – 02/2022</span></h3>
         <ul>
             <li>Tham gia nhóm phát triển công cụ quản lý quy trình trong bệnh viện.</li>
             <li>Hỗ trợ phát triển và điều chỉnh các thành phần giao diện bằng HTML và CSS.</li>
@@ -549,7 +558,7 @@ const translations = {
         <p><strong>HQ TECH GmbH</strong> (Berlin, Đức)
             <br> <a href="http://www.hqtech.de/" target="_blank">http://www.hqtech.de/</a>
         </p>
-        <h3>Chuyên viên hỗ trợ CNTT <span>01.2018 – 01.2019</span></h3>
+        <h3>Chuyên viên hỗ trợ CNTT <span>01/2018 – 01/2019</span></h3>
         <ul>
             <li>Hỗ trợ kỹ thuật cho hệ thống thanh toán tại quầy (POS).</li>
             <li>Cài đặt và cấu hình kết nối mạng phục vụ hoạt động của hệ thống POS.</li>
@@ -560,11 +569,11 @@ const translations = {
 
     <h2>Học vấn</h2>
     <div class="edu">
-        <h3>Đại học Potsdam <span>10.2020 - 03.2021</span></h3>
+        <h3>Đại học Potsdam <span>10/2020 – 03/2021</span></h3>
         <p>Theo học ngành Tin học / Khoa học tính toán (chưa tốt nghiệp).</p>
     </div>
     <div class="edu">
-        <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
+        <h3>Campus Berufsausbildung e.V. Berlin <span>08/2015 – 08/2020</span></h3>
         <p>Tốt nghiệp Trợ lý kỹ thuật, có bằng dự bị vào đại học khoa học ứng dụng<br>
             Chuyên ngành Điện tử và Công nghệ dữ liệu</p>
     </div>
@@ -610,7 +619,7 @@ const translations = {
             <h3>Cơ sở dữ liệu</h3>
             <ul>
                 <li>Microsoft SQL Server</li>
-                <li>SQL View</li>
+                <li>Tạo và điều chỉnh SQL View</li>
                 <li>SQL Server Management Studio</li>
             </ul>
             <h3>Công cụ khác</h3>
@@ -624,13 +633,13 @@ const translations = {
     <h2>Chứng chỉ</h2>
     <div class="cert">
         <h3>Kiến thức nền tảng về phát triển phần mềm, do Microsoft và LinkedIn cung cấp
-            <span>Tháng 3/2025</span></h3>
-        <h3>Khóa học nền tảng Jira Service Desk/Management tại LinkedIn <span>Tháng 3/2025</span></h3>
-        <h3>Học SQL tại LinkedIn <span>Tháng 11/2024</span></h3>
-        <h3>Nền tảng lập trình: Cơ sở dữ liệu tại LinkedIn <span>Tháng 8/2024</span></h3>
-        <h3>Nền tảng lập trình: Kiến thức cơ bản tại LinkedIn <span>Tháng 6/2024</span></h3>
+            <span>03/2025</span></h3>
+        <h3>Khóa học nền tảng Jira Service Desk/Management tại LinkedIn <span>03/2025</span></h3>
+        <h3>Học SQL tại LinkedIn <span>11/2024</span></h3>
+        <h3>Nền tảng lập trình: Cơ sở dữ liệu tại LinkedIn <span>08/2024</span></h3>
+        <h3>Nền tảng lập trình: Kiến thức cơ bản tại LinkedIn <span>06/2024</span></h3>
         <h3>ECDL (Chứng chỉ tin học châu Âu) / MS Office, Windows 7, Outlook 2013 tại Campus Berufsausbildung e.V.
-            Berlin <span>Tháng 4/2017</span></h3>
+            Berlin <span>04/2017</span></h3>
     </div>
         `
     }
