@@ -45,6 +45,13 @@ function showTab(tabId, event) {
 
 const translations = {
     de: {
+        about_title: 'Über mich',
+        about_tagline: 'IT Operations | IT Service Management | Monitoring',
+        about_description: `IT-Mitarbeiter mit Berufserfahrung im IT Service Management, in der Benutzer- und
+            Berechtigungsverwaltung sowie im IT-Monitoring. Praktische Kenntnisse in Microsoft SQL Server, der
+            Erstellung und Anpassung von SQL-Views sowie im Umgang mit CA Service Desk und USU Service Management.
+            Erfahrung im NOC-Monitoring mit Zabbix und in der systematischen Ticketerfassung. Ziel ist die fachliche
+            Weiterentwicklung im IT-Support, IT-Betrieb und in der Junior-Systemadministration.`,
         info_section: `
             <h2>Kontaktinformation</h2>
             <ul>
@@ -279,6 +286,13 @@ const translations = {
         `
     },
     en: {
+        about_title: 'About me',
+        about_tagline: 'IT Operations | IT Service Management | Monitoring',
+        about_description: `IT professional with experience in IT service management, user and access management,
+            and IT monitoring. Practical knowledge of Microsoft SQL Server, creating and adapting SQL views, and
+            working with CA Service Desk and USU Service Management. Experienced in NOC monitoring with Zabbix and
+            systematic ticket logging. Seeking to further develop professionally in IT support, IT operations, and
+            junior systems administration.`,
         info_section: `
             <h2>Contact Information</h2>
             <ul>
@@ -418,6 +432,13 @@ const translations = {
         `
     },
     vi: {
+        about_title: 'Giới thiệu',
+        about_tagline: 'Vận hành CNTT | Quản lý dịch vụ CNTT | Giám sát hệ thống',
+        about_description: `Nhân viên CNTT có kinh nghiệm trong quản lý dịch vụ CNTT, quản lý người dùng và quyền
+            truy cập, cũng như giám sát CNTT. Có kiến thức thực tế về Microsoft SQL Server, tạo và chỉnh sửa SQL
+            View, cùng với CA Service Desk và USU Service Management. Có kinh nghiệm giám sát NOC bằng Zabbix và ghi
+            nhận yêu cầu qua hệ thống ticket một cách có hệ thống. Mong muốn tiếp tục phát triển chuyên môn trong
+            lĩnh vực hỗ trợ CNTT, vận hành CNTT và quản trị hệ thống cấp độ junior.`,
         info_section: `
         <h2>Thông tin liên hệ</h2>
         <ul>
@@ -559,6 +580,7 @@ const translations = {
 };
 
 function setLanguage(lang) {
+    document.documentElement.lang = lang;
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (translations[lang][key]) {
