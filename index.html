@@ -16,7 +16,7 @@
     <!-- ...existing code... -->
 
     <!-- ...existing code... -->
-    <button onclick="downloadPDF()" style="margin: 20px 0;">Portfolio as PDF Download</button>
+    <button onclick="downloadPDF()" style="margin: 20px 0;" data-i18n="download_pdf">Portfolio als PDF herunterladen</button>
     <!-- ...existing code... -->
 
     <div class="lang-switcher" style="text-align:right; margin: 16px 0;">
@@ -59,8 +59,8 @@
 
         <div class="tabs">
 
-            <button class="tab-btn active" onclick="showTab('cv')">Lebenslauf</button>
-            <button class="tab-btn" onclick="showTab('info')">Kontaktinfo</button>
+            <button class="tab-btn active" onclick="showTab('cv', event)" data-i18n="tab_cv">Lebenslauf</button>
+            <button class="tab-btn" onclick="showTab('info', event)" data-i18n="tab_info">Kontaktinfo</button>
 
         </div>
         <!-- Kontaktinfo Tab -->
@@ -70,9 +70,9 @@
                 <!-- <li><strong>Geschlecht:</strong> männlich</li>
                 <li><strong>Nationalität:</strong> deutsch</li>
                 <li><strong>Geburtsdatum/-ort:</strong> 14.04.1987 in Hanoi, Vietnam</li> -->
-                <li><strong>Email:</strong> vuongcuong144@gmail.com</li>
+                <li><strong>E-Mail:</strong> vuongcuong144@gmail.com</li>
 
-                <li><strong>Hompage:</strong>
+                <li><strong>Homepage:</strong>
                     <a href="https://vuongcuong1404.github.io/Portfolio/"
                         target="_blank">https://vuongcuong1404.github.io/Portfolio/
                     </a>

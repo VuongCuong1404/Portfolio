@@ -45,6 +45,9 @@ function showTab(tabId, event) {
 
 const translations = {
     de: {
+        download_pdf: 'Portfolio als PDF herunterladen',
+        tab_cv: 'Lebenslauf',
+        tab_info: 'Kontaktinfo',
         about_title: 'Über mich',
         about_tagline: 'IT Operations | IT Service Management | Monitoring',
         about_description: `IT-Mitarbeiter mit Berufserfahrung im IT Service Management, in der Benutzer- und
@@ -55,10 +58,15 @@ const translations = {
         info_section: `
             <h2>Kontaktinformation</h2>
             <ul>
-                <li><strong>Email:</strong> vuongcuong144@gmail.com</li>
+                <li><strong>E-Mail:</strong> vuongcuong144@gmail.com</li>
+                <li><strong>Homepage:</strong>
+                    <a href="https://vuongcuong1404.github.io/Portfolio/" target="_blank">
+                        https://vuongcuong1404.github.io/Portfolio/
+                    </a>
+                </li>
                 <li><strong>LinkedIn:</strong>
-                    <a href="https://www.linkedin.com/in/vuong-cuong-dam-477a891b9" target="_blank">
-                        linkedin.com/in/dam-vuong-cuong-8b0b4a1b6/
+                    <a href="https://www.linkedin.com/in/vuong-cuong-d-477a891b9/" target="_blank">
+                        linkedin.com/in/vuong-cuong-d-477a891b9/
                     </a>
                 </li>
                 <li><strong>Xing:</strong>
@@ -286,6 +294,9 @@ const translations = {
         `
     },
     en: {
+        download_pdf: 'Download portfolio as PDF',
+        tab_cv: 'Resume',
+        tab_info: 'Contact information',
         about_title: 'About me',
         about_tagline: 'IT Operations | IT Service Management | Monitoring',
         about_description: `IT professional with experience in IT service management, user and access management,
@@ -297,9 +308,14 @@ const translations = {
             <h2>Contact Information</h2>
             <ul>
                 <li><strong>Email:</strong> vuongcuong144@gmail.com</li>
+                <li><strong>Homepage:</strong>
+                    <a href="https://vuongcuong1404.github.io/Portfolio/" target="_blank">
+                        https://vuongcuong1404.github.io/Portfolio/
+                    </a>
+                </li>
                 <li><strong>LinkedIn:</strong>
-                    <a href="https://www.linkedin.com/in/vuong-cuong-dam-477a891b9" target="_blank">
-                        linkedin.com/in/dam-vuong-cuong-8b0b4a1b6/
+                    <a href="https://www.linkedin.com/in/vuong-cuong-d-477a891b9/" target="_blank">
+                        linkedin.com/in/vuong-cuong-d-477a891b9/
                     </a>
                 </li>
                 <li><strong>Xing:</strong>
@@ -315,28 +331,34 @@ const translations = {
         <p><strong>GISA GmbH</strong> (Hanoi, Vietnam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
         </p>
-        <h3>Security and Network Operation Center (SOC & NOC)<span>since 01.2025</span></h3>
-        <h5>Security Operation Center (SOC)</h5>
+        <h3>GISA Solutions Vietnam - NOC Monitoring <span>since 01.2025</span></h3>
         <ul>
-            <li>Real-time monitoring of security events and incidents.</li>
-            <li>Collaboration with the German NOC team to resolve security vulnerabilities.</li>
+            <li>Monitoring IT systems and alerts using Zabbix.</li>
+            <li>Observing system notifications and unusual activity during operations.</li>
+            <li>Quickly identifying and resolving network or system incidents.</li>
+            <li>Forwarding or escalating relevant alerts to the responsible teams in accordance with established
+                processes.</li>
+            <li>Preparing network documentation and status reports.</li>
+            <li>Participating in on-call duty in accordance with operational requirements.</li>
         </ul>
-        <h5>Network Operation Center (NOC)</h5>
+        <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC)
+            <span>01.2025 - 03.2026</span></h3>
         <ul>
-            <li>Monitoring of network and server infrastructure.</li>
-            <li>Using tools such as Zabbix.</li>
-            <li>Quick identification and resolution of network or system failures.</li>
-            <li>Escalation in case of serious problems.</li>
-            <li>Logging of incidents and actions taken.</li>
-            <li>Creating network documentation and status reports.</li>
+            <li>Monitoring security dashboards and displayed events.</li>
+            <li>Observing unusual alerts as part of established monitoring processes.</li>
+            <li>Documenting relevant events and supporting ticket handling within the scope of assigned
+                responsibilities.</li>
         </ul>
-        <h3>IT Service Management (ITSM) <span>since 04.2022</span></h3>
+        <h3>GISA Solutions Vietnam - IT Service Management (ITSM)
+            <span>04.2022 - 12.2024</span></h3>
         <ul>
-            <li>Quickly resolving incidents and restoring normal operations.</li>
-            <li>Monitoring and managing IT service requests via the ticket system.</li>
+            <li>Creating and modifying views in Microsoft SQL Server.</li>
+            <li>Managing user accounts and groups within assigned administrative permissions.</li>
+            <li>Creating, modifying, and maintaining users and groups, and assigning access permissions.</li>
+            <li>Handling IT service requests and supporting ticket processing within the scope of assigned
+                responsibilities.</li>
+            <li>Working with ITSM tools, particularly CA Service Desk and USU Service Management.</li>
             <li>Collaborating with global IT support teams to ensure service quality.</li>
-            <li>Implementing, managing, and maintaining ITSM tools.</li>
-            <li>Managing IT assets and configuration management.</li>
         </ul>
     </div>
 
@@ -345,19 +367,13 @@ const translations = {
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
         <h3>Junior Developer Support <span>08.2021 – 02.2022</span></h3>
-        <p>
-            Supported the developer team in building web applications.
-            Worked with frontend technologies (HTML, CSS) and learned Angular frameworks.
-            Configured and deployed Microsoft SQL databases.
-        </p>
         <ul>
-            <li>Assisted with frontend components using HTML and CSS.</li>
-            <li>Gained initial experience with Angular frameworks.</li>
-            <li>Set up and configured Microsoft SQL databases.</li>
-            <li>Provided technical support for the development team.</li>
+            <li>Contributed to a developer team building a tool for managing hospital processes.</li>
+            <li>Assisted with developing and adapting frontend components using HTML and CSS.</li>
+            <li>Gained initial hands-on experience with the Angular framework.</li>
+            <li>Assisted with building and setting up Microsoft SQL databases.</li>
+            <li>Supported the development team with technical project tasks.</li>
         </ul>
-    </div>
-
     </div>
 
     <div class="job">
@@ -366,72 +382,93 @@ const translations = {
         </p>
         <h3>IT Support Specialist <span>01.2018 – 01.2019</span></h3>
         <ul>
-            <li>Monitoring and maintenance of IT systems.</li>
-            <li>Troubleshooting and system problem solving.</li>
-            <li>Developing and implementing optimal solutions.</li>
+            <li>Providing technical support for point-of-sale (POS) systems.</li>
+            <li>Installing and configuring network connections for POS system operations.</li>
+            <li>Assisting with the setup and commissioning of connected systems.</li>
+            <li>Supporting users with technical incidents within the scope of assigned responsibilities.</li>
         </ul>
     </div>
 
     <h2>Education</h2>
     <div class="edu">
         <h3>University of Potsdam <span>10.2020 - 03.2021</span></h3>
-        <p>Bachelor of Science - BS, Computer Science/Computational Science</p>
+        <p>Studies in Computer Science / Computational Science (no degree completed).</p>
     </div>
     <div class="edu">
         <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
-        <p>Vocational qualification as Technical Assistant with university entrance qualification<br>
+        <p>Vocational qualification as a Technical Assistant with a university of applied sciences entrance
+            qualification<br>
             Specialization in Electronics and Data Technology</p>
     </div>
 
     <h2>Skills</h2>
-                <h4>Languageskill</h4>
-            <ul>
-                German (Good knowledge), Englisch (Basic knowledge), Vietnamese (Good knowledge)
-            </ul>
-
-            <h4>IT-skill</h4>
+    <h4>Languages</h4>
+    <ul>
+        <li>German (good proficiency)</li>
+        <li>English (basic proficiency)</li>
+        <li>Vietnamese (good proficiency)</li>
+    </ul>
+    <h4>IT Skills</h4>
     <div class="skills-row">
         <div class="skills-col">
-            <h3>IT Support</h3>
+            <h3>IT Service Management</h3>
             <ul>
-                <li>ITSM</li>
+                <li>CA Service Desk</li>
                 <li>Jira Service Desk</li>
+                <li>USU Service Management</li>
+                <li>Ticket handling</li>
+            </ul>
+            <h3>User and Access Management</h3>
+            <ul>
+                <li>User accounts</li>
+                <li>User groups</li>
+                <li>Access permissions</li>
+            </ul>
+            <h3>Monitoring</h3>
+            <ul>
+                <li>Zabbix</li>
+                <li>Alert monitoring</li>
+                <li>Ticket logging</li>
             </ul>
             <h3>Programming Languages</h3>
             <ul>
-                <li>Java</li>
-                <li>HTML/CSS/JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Angular (basic knowledge)</li>
             </ul>
         </div>
         <div class="skills-col">
             <h3>Databases</h3>
             <ul>
-                <li>SQL Server</li>
-                <li>SQLite</li>
+                <li>Microsoft SQL Server</li>
+                <li>SQL views</li>
+                <li>SQL Server Management Studio</li>
             </ul>
-            <h3>Tools</h3>
+            <h3>Additional Tools</h3>
             <ul>
                 <li>VS Code</li>
                 <li>Android Studio</li>
-                <li>Microsoft SQL Server Management Studio</li>
             </ul>
         </div>
     </div>
 
     <h2>Certificates</h2>
     <div class="cert">
-        <h3>Basic Knowledge of Software Development, provided by Microsoft and LinkedIn at LinkedIn <span>March
-                2025</span></h3>
-        <h3>Jira Service Desk/Management Basic Course at LinkedIn <span>March 2025</span></h3>
-        <h3>Learning SQL at LinkedIn <span>Nov. 2024</span></h3>
-        <h3>Programming Basics: Databases at LinkedIn <span>Aug 2024</span></h3>
-        <h3>Programming Basics: Fundamentals at LinkedIn <span>June 2024</span></h3>
-        <h3>ECDL (European Computer Driving Licence) / MS Office, Windows 7, Outlook 2013 at Campus Berufsausbildung
-            e.V. Berlin <span>Apr 2017</span></h3>
+        <h3>Software Development Fundamentals, provided by Microsoft and LinkedIn <span>March 2025</span></h3>
+        <h3>Jira Service Desk/Management Fundamentals, LinkedIn <span>March 2025</span></h3>
+        <h3>Learning SQL, LinkedIn <span>November 2024</span></h3>
+        <h3>Programming Foundations: Databases, LinkedIn <span>August 2024</span></h3>
+        <h3>Programming Foundations: Fundamentals, LinkedIn <span>June 2024</span></h3>
+        <h3>ECDL (European Computer Driving Licence) / MS Office, Windows 7, Outlook 2013, Campus
+            Berufsausbildung e.V. Berlin <span>April 2017</span></h3>
     </div>
         `
     },
     vi: {
+        download_pdf: 'Tải hồ sơ dưới dạng PDF',
+        tab_cv: 'Sơ yếu lý lịch',
+        tab_info: 'Thông tin liên hệ',
         about_title: 'Giới thiệu',
         about_tagline: 'Vận hành CNTT | Quản lý dịch vụ CNTT | Giám sát hệ thống',
         about_description: `Nhân viên CNTT có kinh nghiệm trong quản lý dịch vụ CNTT, quản lý người dùng và quyền
@@ -443,9 +480,14 @@ const translations = {
         <h2>Thông tin liên hệ</h2>
         <ul>
         <li><strong>Email:</strong> vuongcuong144@gmail.com</li>
+        <li><strong>Trang web:</strong>
+            <a href="https://vuongcuong1404.github.io/Portfolio/" target="_blank">
+                https://vuongcuong1404.github.io/Portfolio/
+            </a>
+        </li>
         <li><strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/vuong-cuong-dam-477a891b9" target="_blank">
-                linkedin.com/in/dam-vuong-cuong-8b0b4a1b6/
+            <a href="https://www.linkedin.com/in/vuong-cuong-d-477a891b9/" target="_blank">
+                linkedin.com/in/vuong-cuong-d-477a891b9/
             </a>
         </li>
         <li><strong>Xing:</strong>
@@ -461,28 +503,31 @@ const translations = {
         <p><strong>GISA GmbH</strong> (Hà Nội, Việt Nam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
         </p>
-        <h3>Trung tâm vận hành an ninh & mạng (SOC & NOC)<span>Từ 01.2025</span></h3>
-        <h5>Trung tâm vận hành an ninh (SOC)</h5>
+        <h3>GISA Solutions Vietnam - Giám sát NOC <span>Từ 01.2025</span></h3>
         <ul>
-            <li>Giám sát sự kiện và sự cố an ninh theo thời gian thực.</li>
-            <li>Phối hợp với đội NOC Đức để xử lý các lỗ hổng bảo mật.</li>
-        </ul>
-        <h5>Trung tâm vận hành mạng (NOC)</h5>
-        <ul>
-            <li>Giám sát hạ tầng mạng và máy chủ.</li>
-            <li>Sử dụng các công cụ như Zabbix.</li>
-            <li>Phát hiện và xử lý nhanh các sự cố mạng hoặc hệ thống.</li>
-            <li>Chuyển cấp khi có sự cố nghiêm trọng.</li>
-            <li>Ghi nhận sự cố và các biện pháp đã thực hiện.</li>
+            <li>Giám sát hệ thống CNTT và cảnh báo bằng Zabbix.</li>
+            <li>Theo dõi thông báo hệ thống và các dấu hiệu bất thường trong quá trình vận hành.</li>
+            <li>Phát hiện và xử lý nhanh sự cố mạng hoặc hệ thống.</li>
+            <li>Chuyển tiếp hoặc báo cáo sự cố liên quan đến các nhóm phụ trách theo đúng quy trình.</li>
             <li>Lập tài liệu mạng và báo cáo trạng thái.</li>
+            <li>Tham gia trực theo yêu cầu vận hành.</li>
         </ul>
-        <h3>Quản lý dịch vụ CNTT (ITSM) <span>Từ 04.2022</span></h3>
+        <h3>GISA Solutions Vietnam - Trung tâm vận hành an ninh và mạng (SOC)
+            <span>01.2025 - 03.2026</span></h3>
         <ul>
-            <li>Xử lý nhanh sự cố để khôi phục hoạt động bình thường.</li>
-            <li>Giám sát và quản lý yêu cầu dịch vụ CNTT qua hệ thống ticket.</li>
-            <li>Phối hợp với các nhóm hỗ trợ toàn cầu để đảm bảo chất lượng dịch vụ.</li>
-            <li>Triển khai, quản lý và bảo trì các công cụ ITSM.</li>
-            <li>Quản lý tài sản CNTT và cấu hình hệ thống.</li>
+            <li>Giám sát bảng điều khiển an ninh và các sự kiện được hiển thị.</li>
+            <li>Theo dõi các cảnh báo bất thường theo quy trình giám sát đã được quy định.</li>
+            <li>Ghi nhận sự kiện liên quan và hỗ trợ xử lý ticket trong phạm vi trách nhiệm được giao.</li>
+        </ul>
+        <h3>GISA Solutions Vietnam - Quản lý dịch vụ CNTT (ITSM)
+            <span>04.2022 - 12.2024</span></h3>
+        <ul>
+            <li>Tạo và điều chỉnh các view trong Microsoft SQL Server.</li>
+            <li>Quản lý tài khoản và nhóm người dùng trong phạm vi quyền quản trị được giao.</li>
+            <li>Tạo, chỉnh sửa và duy trì tài khoản, nhóm người dùng; phân quyền truy cập.</li>
+            <li>Tiếp nhận yêu cầu dịch vụ CNTT và hỗ trợ xử lý ticket trong phạm vi trách nhiệm được giao.</li>
+            <li>Sử dụng các công cụ ITSM, đặc biệt là CA Service Desk và USU Service Management.</li>
+            <li>Phối hợp với các nhóm hỗ trợ CNTT toàn cầu để đảm bảo chất lượng dịch vụ.</li>
         </ul>
     </div>
 
@@ -491,19 +536,13 @@ const translations = {
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
         <h3>Hỗ trợ phát triển phần mềm (Junior Developer Support) <span>08.2021 – 02.2022</span></h3>
-        <p>
-            Hỗ trợ nhóm phát triển trong việc xây dựng các ứng dụng web.
-            Làm việc với HTML, CSS và tìm hiểu thêm về Angular.
-            Tham gia cài đặt và triển khai cơ sở dữ liệu Microsoft SQL.
-        </p>
         <ul>
-            <li>Hỗ trợ phát triển giao diện bằng HTML và CSS.</li>
-            <li>Học hỏi và thực hành cơ bản với Angular.</li>
-            <li>Cấu hình và triển khai Microsoft SQL Database.</li>
-            <li>Hỗ trợ kỹ thuật cho nhóm phát triển.</li>
+            <li>Tham gia nhóm phát triển công cụ quản lý quy trình trong bệnh viện.</li>
+            <li>Hỗ trợ phát triển và điều chỉnh các thành phần giao diện bằng HTML và CSS.</li>
+            <li>Có kinh nghiệm thực tế ban đầu với framework Angular.</li>
+            <li>Hỗ trợ xây dựng và thiết lập cơ sở dữ liệu Microsoft SQL.</li>
+            <li>Hỗ trợ nhóm phát triển các công việc kỹ thuật trong dự án.</li>
         </ul>
-    </div>
-
     </div>
 
     <div class="job">
@@ -512,67 +551,85 @@ const translations = {
         </p>
         <h3>Chuyên viên hỗ trợ CNTT <span>01.2018 – 01.2019</span></h3>
         <ul>
-            <li>Giám sát và bảo trì hệ thống CNTT.</li>
-            <li>Khắc phục sự cố và giải quyết vấn đề hệ thống.</li>
-            <li>Phát triển và triển khai các giải pháp tối ưu.</li>
+            <li>Hỗ trợ kỹ thuật cho hệ thống thanh toán tại quầy (POS).</li>
+            <li>Cài đặt và cấu hình kết nối mạng phục vụ hoạt động của hệ thống POS.</li>
+            <li>Hỗ trợ thiết lập và đưa các hệ thống kết nối vào vận hành.</li>
+            <li>Hỗ trợ xử lý sự cố kỹ thuật trong phạm vi trách nhiệm được giao.</li>
         </ul>
     </div>
 
     <h2>Học vấn</h2>
     <div class="edu">
         <h3>Đại học Potsdam <span>10.2020 - 03.2021</span></h3>
-        <p>Cử nhân Khoa học - Tin học/Khoa học tính toán</p>
+        <p>Theo học ngành Tin học / Khoa học tính toán (chưa tốt nghiệp).</p>
     </div>
     <div class="edu">
         <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
-        <p>Tốt nghiệp nghề Trợ lý kỹ thuật với bằng dự bị đại học<br>
+        <p>Tốt nghiệp Trợ lý kỹ thuật, có bằng dự bị vào đại học khoa học ứng dụng<br>
             Chuyên ngành Điện tử và Công nghệ dữ liệu</p>
     </div>
 
     <h2>Kỹ năng</h2>
-                <h4>Ngôn ngữngữ</h4>
-            <ul>
-                Tiếng Đức (Tốt), Tiếng Anh (Cơ bản), Tiếng Việt (Tốt)
-            </ul>
-
-            <h4>Ký năng ITIT</h4>
+    <h4>Ngoại ngữ</h4>
+    <ul>
+        <li>Tiếng Đức (khá)</li>
+        <li>Tiếng Anh (cơ bản)</li>
+        <li>Tiếng Việt (khá)</li>
+    </ul>
+    <h4>Kỹ năng CNTT</h4>
     <div class="skills-row">
         <div class="skills-col">
-            <h3>Hỗ trợ CNTT</h3>
+            <h3>Quản lý dịch vụ CNTT</h3>
             <ul>
-                <li>ITSM</li>
+                <li>CA Service Desk</li>
                 <li>Jira Service Desk</li>
+                <li>USU Service Management</li>
+                <li>Xử lý ticket</li>
+            </ul>
+            <h3>Quản lý người dùng và quyền truy cập</h3>
+            <ul>
+                <li>Tài khoản người dùng</li>
+                <li>Nhóm người dùng</li>
+                <li>Quyền truy cập</li>
+            </ul>
+            <h3>Giám sát hệ thống</h3>
+            <ul>
+                <li>Zabbix</li>
+                <li>Giám sát cảnh báo</li>
+                <li>Ghi nhận ticket</li>
             </ul>
             <h3>Ngôn ngữ lập trình</h3>
             <ul>
-                <li>Java</li>
-                <li>HTML/CSS/JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Angular (kiến thức cơ bản)</li>
             </ul>
         </div>
         <div class="skills-col">
             <h3>Cơ sở dữ liệu</h3>
             <ul>
-                <li>SQL Server</li>
-                <li>SQLite</li>
+                <li>Microsoft SQL Server</li>
+                <li>SQL View</li>
+                <li>SQL Server Management Studio</li>
             </ul>
-            <h3>Công cụ</h3>
+            <h3>Công cụ khác</h3>
             <ul>
                 <li>VS Code</li>
                 <li>Android Studio</li>
-                <li>Microsoft SQL Server Management Studio</li>
             </ul>
         </div>
     </div>
 
     <h2>Chứng chỉ</h2>
     <div class="cert">
-        <h3>Kiến thức cơ bản về phát triển phần mềm, do Microsoft và LinkedIn cung cấp tại LinkedIn <span>Tháng
-                3/2025</span></h3>
-        <h3>Khóa học cơ bản Jira Service Desk/Management tại LinkedIn <span>Tháng 3/2025</span></h3>
+        <h3>Kiến thức nền tảng về phát triển phần mềm, do Microsoft và LinkedIn cung cấp
+            <span>Tháng 3/2025</span></h3>
+        <h3>Khóa học nền tảng Jira Service Desk/Management tại LinkedIn <span>Tháng 3/2025</span></h3>
         <h3>Học SQL tại LinkedIn <span>Tháng 11/2024</span></h3>
-        <h3>Cơ sở lập trình: Cơ sở dữ liệu tại LinkedIn <span>Tháng 8/2024</span></h3>
-        <h3>Cơ sở lập trình: Kiến thức cơ bản tại LinkedIn <span>Tháng 6/2024</span></h3>
-        <h3>ECDL (Chứng chỉ tin học Châu Âu) / MS Office, Windows 7, Outlook 2013 tại Campus Berufsausbildung e.V.
+        <h3>Nền tảng lập trình: Cơ sở dữ liệu tại LinkedIn <span>Tháng 8/2024</span></h3>
+        <h3>Nền tảng lập trình: Kiến thức cơ bản tại LinkedIn <span>Tháng 6/2024</span></h3>
+        <h3>ECDL (Chứng chỉ tin học châu Âu) / MS Office, Windows 7, Outlook 2013 tại Campus Berufsausbildung e.V.
             Berlin <span>Tháng 4/2017</span></h3>
     </div>
         `
@@ -580,11 +637,16 @@ const translations = {
 };
 
 function setLanguage(lang) {
+    const language = translations[lang];
+    if (!language) {
+        throw new RangeError(`Unsupported language: ${lang}`);
+    }
+
     document.documentElement.lang = lang;
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (translations[lang][key]) {
-            el.innerHTML = translations[lang][key];
+        if (key && language[key]) {
+            el.innerHTML = language[key];
         }
     });
 }
