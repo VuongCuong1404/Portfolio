@@ -50,11 +50,11 @@ const translations = {
         tab_info: 'Kontaktinfo',
         about_title: 'Über mich',
         about_tagline: 'IT Operations | IT Service Management | Monitoring',
-        about_description: `IT-Mitarbeiter mit Berufserfahrung im IT Service Management, in der Benutzer- und
-            Berechtigungsverwaltung sowie im IT-Monitoring. Praktische Kenntnisse in Microsoft SQL Server, der
-            Erstellung und Anpassung von SQL-Views sowie im Umgang mit CA Service Desk und USU Service Management.
-            Erfahrung im NOC-Monitoring mit Zabbix und in der systematischen Ticketerfassung. Ziel ist die fachliche
-            Weiterentwicklung im IT-Support, IT-Betrieb und in der Junior-Systemadministration.`,
+        about_description: `IT-Operations-Spezialist mit über 4 Jahren Erfahrung in 24/7-Monitoring, IT Service
+            Management und Incident-Handling bei einem deutschen IT-Dienstleister. Erfahrung in der Überwachung von
+            IT-Systemen mit Zabbix, der Ticketbearbeitung in CA Service Desk und USU, der SQL-Server-Administration
+            sowie der Teilnahme an der Rufbereitschaft. Sicher im Umgang mit Eskalationsprozessen und in der
+            Kundenkommunikation bei Systemausfällen.`,
         info_section: `
             <h2>Kontaktinformation</h2>
             <ul>
@@ -88,40 +88,35 @@ const translations = {
 
                 <h3>GISA Solutions Vietnam - NOC Monitoring <span>seit 01.2025</span></h3>
                 <ul>
-                    <li>Beobachtung von Systemmeldungen und Auffälligkeiten im laufenden Betrieb.</li>
-                    <li>Überwachung von IT-Systemen und Alarmmeldungen mithilfe von Zabbix. Erfassung und
-                        Dokumentation erkannter Alarme und Störungen im Ticketsystem.</li>
-                    <li>Weiterleitung bzw. Eskalation relevanter Meldungen an die zuständigen Teams gemäß den
-                        vorgegebenen Prozessen.</li>
+                    <li>Rund-um-die-Uhr-Überwachung der Kundeninfrastruktur mit Zabbix; Bewertung von Alarmen und
+                        Erstellung von Tickets in CA Service Desk / USU (durchschnittlich 1 Ticket alle 30–40 Minuten
+                        im Betrieb).</li>
+                    <li>Eskalation von Störungen an die zuständigen Teams gemäß SLA sowie telefonische und
+                        schriftliche Kundeninformation bei Systemausfällen.</li>
+                    <li>Teilnahme an der Rufbereitschaft zur Sicherstellung der Verfügbarkeit.</li>
                     <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
-                    <li>Teilnahme an der Bereitschaft gemäß den betrieblichen Vorgaben.</li>
                 </ul>
 
                 <!-- <br> https://gisasolutions.vn/ -->
 
-                <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC, parallel zum NOC)
+                <h3>GISA Solutions Vietnam - SOC Monitoring
                     <span>01.2025 – 03.2026</span>
                 </h3>
-
-                <!-- <h5>Security Operation Center (SOC)</h5> -->
                 <ul>
-                    <li>Überwachung von Sicherheits-Dashboards und angezeigten Ereignissen.</li>
-                    <li>Beobachtung auffälliger Meldungen im Rahmen der vorgegebenen Monitoring-Prozesse.</li>
-                    <li>Dokumentation relevanter Ereignisse und Unterstützung der Ticketbearbeitung, soweit im eigenen
-                        Aufgabenbereich.</li>
+                    <li>Überwachung sicherheitsrelevanter Dashboards (VPN, Firewall, Citrix, Clients,
+                        Domain Controller) für 5 Kunden mit jeweils ca. 10 Dashboards.</li>
+                    <li>Erkennung von Auffälligkeiten, z. B. Brute-Force-Versuchen, und Weitergabe an Kollegen bzw.
+                        Information der Kunden.</li>
                 </ul>
 
                 <h3>GISA Solutions Vietnam - IT Service Management (ITSM) <span>04.2022 – 01.2025</span></h3>
                 <ul>
-                    <li>Erstellung und Anpassung von Views in Microsoft SQL Server.</li>
-                    <li>Verwaltung von Benutzerkonten und Benutzergruppen im Rahmen der zugewiesenen administrativen
-                        Berechtigungen.</li>
-                    <li>Erstellung, Änderung und Pflege von Benutzern und Gruppen sowie Zuweisung von
-                        Zugriffsberechtigungen.</li>
-                    <li>Bearbeitung von IT-Service-Anfragen und Unterstützung bei der Ticketbearbeitung im Rahmen des
-                        eigenen Aufgabenbereichs.</li>
-                    <li>Arbeit mit ITSM-Tools, insbesondere CA Service Desk und USU Service Management.</li>
-                    <li>Zusammenarbeit mit globalen IT-Support-Teams zur Sicherstellung der Servicequalität.</li>
+                    <li>Bearbeitung von Berechtigungs- und Benutzeranfragen sowie Anlage, Änderung und Löschung von
+                        Benutzern und Gruppen in CA Service Desk.</li>
+                    <li>Erstellung und Anpassung von SQL-Views in MS SQL Server sowie Reporting für Fachbereiche.</li>
+                    <li>Umsetzung von Aufträgen wie Service-Pflege, Erweiterung von Serverfunktionen und
+                        Massenimporten.</li>
+                    <li>Sicherstellung der Verfügbarkeit (Tomcat-Neustarts, Scoreboard) im Rahmen der Bereitschaft.</li>
                     <li>Seit 01.2025 weiterhin Mitglied der ITSM-Gruppe und mit administrativen Berechtigungen;
                         operative ITSM-Aufgaben nur noch bei Bedarf.</li>
                 </ul>
@@ -187,9 +182,9 @@ const translations = {
     <h2>Kenntnisse</h2>
                 <h4>Sprachkenntnisse</h4>
             <ul>
-                <li>Deutsch (gute Kenntnisse)</li>
-                <li>Englisch (Grundkenntnisse)</li>
-                <li>Vietnamesisch (gute Kenntnisse)</li>
+                <li>Deutsch (B2+)</li>
+                <li>Englisch (A2)</li>
+                <li>Vietnamesisch (Muttersprache)</li>
             </ul>
 
             <h4>IT-Kenntnisse</h4>
@@ -197,48 +192,26 @@ const translations = {
         <div class="skills-col">
             <h3>IT Service Management</h3>
                     <ul>
-                        <li>CA Service Desk</li>
-                        <li>Jira Service Desk</li>
-                        <li>USU Service Management</li>
-                        <li>Ticketbearbeitung</li>
-                    </ul>
-
-                    <h3>Benutzer- und Berechtigungsverwaltung</h3>
-                    <ul>
-                        <li>Benutzerkonten</li>
-                        <li>Benutzergruppen</li>
-                        <li>Zugriffsberechtigungen</li>
-
+                        <li>CA Service Desk, USU (gut)</li>
                     </ul>
 
                     <h3>Monitoring</h3>
                     <ul>
-                        <li>Zabbix</li>
-                        <li>Alarmüberwachung</li>
-                        <li>Ticketerfassung</li>
-
+                        <li>Zabbix (gut)</li>
                     </ul>
 
-                    <h3>Programmiersprachen</h3>
+                    <h3>Web</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>Angular (Grundkenntnisse)</li>
+                        <li>TypeScript, Node.js, React (Grundlagen)</li>
                     </ul>
                 </div>
                 <div class="skills-col">
                     <h3>Datenbanken</h3>
                     <ul>
-                        <li>Microsoft SQL Server</li>
-                        <li>Erstellung und Anpassung von SQL-Views</li>
-                        <li>SQL Server Management Studio</li>
-
-                    </ul>
-                    <h3>Weitere Tools</h3>
-                    <ul>
-                        <li>VS Code</li>
-                        <li>Android Studio</li>
+                        <li>MS SQL Server, T-SQL, Views (gut)</li>
                     </ul>
                 </div>
     </div>
@@ -301,11 +274,11 @@ const translations = {
         tab_info: 'Contact information',
         about_title: 'About me',
         about_tagline: 'IT Operations | IT Service Management | Monitoring',
-        about_description: `IT professional with experience in IT service management, user and access management,
-            and IT monitoring. Practical knowledge of Microsoft SQL Server, creating and adapting SQL views, and
-            working with CA Service Desk and USU Service Management. Experienced in NOC monitoring with Zabbix and
-            systematic ticket logging. Seeking to further develop professionally in IT support, IT operations, and
-            junior systems administration.`,
+        about_description: `IT Operations Specialist with over 4 years of experience in 24/7 monitoring, IT service
+            management, and incident handling at a German IT service provider. Experienced in monitoring IT systems
+            with Zabbix, handling tickets in CA Service Desk and USU, administering SQL Server, and participating
+            in on-call duty. Confident in following escalation processes and communicating with customers during
+            system outages.`,
         info_section: `
             <h2>Contact Information</h2>
             <ul>
@@ -335,32 +308,29 @@ const translations = {
         </p>
         <h3>GISA Solutions Vietnam - NOC Monitoring <span>Jan 2025 – Present</span></h3>
         <ul>
-            <li>Observing system notifications and unusual activity during operations.</li>
-            <li>Monitoring IT systems and alerts using Zabbix. Recording and documenting detected alerts and
-                incidents in the ticketing system.</li>
-            <li>Forwarding or escalating relevant alerts to the responsible teams in accordance with established
-                processes.</li>
+            <li>Monitoring customer infrastructure around the clock with Zabbix; assessing alerts and creating
+                tickets in CA Service Desk / USU (averaging one ticket every 30–40 minutes during operations).</li>
+            <li>Escalating incidents to the responsible teams in accordance with SLAs and informing customers by
+                phone and in writing during system outages.</li>
+            <li>Participating in on-call duty to ensure service availability.</li>
             <li>Preparing network documentation and status reports.</li>
-            <li>Participating in on-call duty in accordance with operational requirements.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - Security and Network Operation Center (SOC, alongside NOC)
+        <h3>GISA Solutions Vietnam - SOC Monitoring
             <span>Jan 2025 – Mar 2026</span></h3>
         <ul>
-            <li>Monitoring security dashboards and displayed events.</li>
-            <li>Observing unusual alerts as part of established monitoring processes.</li>
-            <li>Documenting relevant events and supporting ticket handling within the scope of assigned
-                responsibilities.</li>
+            <li>Monitoring security-related dashboards (VPN, firewall, Citrix, clients, domain controllers) for
+                5 customers, with approximately 10 dashboards each.</li>
+            <li>Identifying unusual activity, such as brute-force attempts, and escalating it to colleagues or
+                informing customers.</li>
         </ul>
         <h3>GISA Solutions Vietnam - IT Service Management (ITSM)
             <span>Apr 2022 – Jan 2025</span></h3>
         <ul>
-            <li>Creating and modifying views in Microsoft SQL Server.</li>
-            <li>Managing user accounts and groups within assigned administrative permissions.</li>
-            <li>Creating, modifying, and maintaining users and groups, and assigning access permissions.</li>
-            <li>Handling IT service requests and supporting ticket processing within the scope of assigned
-                responsibilities.</li>
-            <li>Working with ITSM tools, particularly CA Service Desk and USU Service Management.</li>
-            <li>Collaborating with global IT support teams to ensure service quality.</li>
+            <li>Handling access and user requests, including creating, changing, and deleting users and groups in
+                CA Service Desk.</li>
+            <li>Creating and modifying SQL views in MS SQL Server and preparing reports for business departments.</li>
+            <li>Completing service maintenance, server-function enhancements, and bulk imports.</li>
+            <li>Ensuring availability through Tomcat restarts and Scoreboard monitoring while on call.</li>
             <li>Since Jan 2025, continued membership in the ITSM group and retention of assigned administrative
                 permissions; operational ITSM tasks performed only as needed.</li>
         </ul>
@@ -408,51 +378,33 @@ const translations = {
     <h2>Skills</h2>
     <h4>Languages</h4>
     <ul>
-        <li>German (good proficiency)</li>
-        <li>English (basic proficiency)</li>
-        <li>Vietnamese (good proficiency)</li>
+        <li>German (B2+)</li>
+        <li>English (A2)</li>
+        <li>Vietnamese (native)</li>
     </ul>
     <h4>IT Skills</h4>
     <div class="skills-row">
         <div class="skills-col">
             <h3>IT Service Management</h3>
             <ul>
-                <li>CA Service Desk</li>
-                <li>Jira Service Desk</li>
-                <li>USU Service Management</li>
-                <li>Ticket handling</li>
-            </ul>
-            <h3>User and Access Management</h3>
-            <ul>
-                <li>User accounts</li>
-                <li>User groups</li>
-                <li>Access permissions</li>
+                <li>CA Service Desk, USU (good proficiency)</li>
             </ul>
             <h3>Monitoring</h3>
             <ul>
-                <li>Zabbix</li>
-                <li>Alert monitoring</li>
-                <li>Ticket logging</li>
+                <li>Zabbix (good proficiency)</li>
             </ul>
-            <h3>Programming Languages</h3>
+            <h3>Web</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>Angular (basic knowledge)</li>
+                <li>TypeScript, Node.js, React (basics)</li>
             </ul>
         </div>
         <div class="skills-col">
             <h3>Databases</h3>
             <ul>
-                <li>Microsoft SQL Server</li>
-                <li>Creating and modifying SQL views</li>
-                <li>SQL Server Management Studio</li>
-            </ul>
-            <h3>Additional Tools</h3>
-            <ul>
-                <li>VS Code</li>
-                <li>Android Studio</li>
+                <li>MS SQL Server, T-SQL, views (good proficiency)</li>
             </ul>
         </div>
     </div>
@@ -475,11 +427,10 @@ const translations = {
         tab_info: 'Thông tin liên hệ',
         about_title: 'Giới thiệu',
         about_tagline: 'Vận hành CNTT | Quản lý dịch vụ CNTT | Giám sát hệ thống',
-        about_description: `Nhân viên CNTT có kinh nghiệm trong quản lý dịch vụ CNTT, quản lý người dùng và quyền
-            truy cập, cũng như giám sát CNTT. Có kiến thức thực tế về Microsoft SQL Server, tạo và chỉnh sửa SQL
-            View, cùng với CA Service Desk và USU Service Management. Có kinh nghiệm giám sát NOC bằng Zabbix và ghi
-            nhận yêu cầu qua hệ thống ticket một cách có hệ thống. Mong muốn tiếp tục phát triển chuyên môn trong
-            lĩnh vực hỗ trợ CNTT, vận hành CNTT và quản trị hệ thống cấp độ junior.`,
+        about_description: `Chuyên viên vận hành CNTT với hơn 4 năm kinh nghiệm giám sát 24/7, quản lý dịch vụ CNTT
+            và xử lý sự cố tại một công ty dịch vụ CNTT của Đức. Có kinh nghiệm giám sát hệ thống bằng Zabbix,
+            xử lý ticket trên CA Service Desk và USU, quản trị SQL Server và tham gia trực hỗ trợ. Thành thạo quy
+            trình chuyển cấp sự cố và giao tiếp với khách hàng khi hệ thống gặp sự cố.`,
         info_section: `
         <h2>Thông tin liên hệ</h2>
         <ul>
@@ -509,29 +460,28 @@ const translations = {
         </p>
         <h3>GISA Solutions Vietnam - Giám sát NOC <span>Từ 01/2025 – hiện nay</span></h3>
         <ul>
-            <li>Theo dõi thông báo hệ thống và các dấu hiệu bất thường trong quá trình vận hành.</li>
-            <li>Giám sát hệ thống CNTT và cảnh báo bằng Zabbix; ghi nhận và lập tài liệu về các cảnh báo, sự cố
-                được phát hiện trên hệ thống ticket.</li>
-            <li>Chuyển tiếp hoặc báo cáo sự cố liên quan đến các nhóm phụ trách theo đúng quy trình.</li>
+            <li>Giám sát hạ tầng khách hàng 24/7 bằng Zabbix; đánh giá cảnh báo và tạo ticket trên CA Service Desk /
+                USU (trung bình 1 ticket mỗi 30–40 phút trong ca vận hành).</li>
+            <li>Chuyển cấp sự cố đến các nhóm phụ trách theo SLA; thông báo cho khách hàng qua điện thoại và văn bản
+                khi hệ thống gặp sự cố.</li>
+            <li>Tham gia trực hỗ trợ để đảm bảo tính sẵn sàng của dịch vụ.</li>
             <li>Lập tài liệu mạng và báo cáo trạng thái.</li>
-            <li>Tham gia trực theo yêu cầu vận hành.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - Trung tâm vận hành an ninh (SOC, song song với NOC)
+        <h3>GISA Solutions Vietnam - Giám sát SOC
             <span>01/2025 – 03/2026</span></h3>
         <ul>
-            <li>Giám sát bảng điều khiển an ninh và các sự kiện được hiển thị.</li>
-            <li>Theo dõi các cảnh báo bất thường theo quy trình giám sát đã được quy định.</li>
-            <li>Ghi nhận sự kiện liên quan và hỗ trợ xử lý ticket trong phạm vi trách nhiệm được giao.</li>
+            <li>Giám sát các dashboard an ninh (VPN, firewall, Citrix, máy trạm, domain controller) cho 5 khách hàng,
+                mỗi khách hàng có khoảng 10 dashboard.</li>
+            <li>Phát hiện dấu hiệu bất thường, ví dụ các cuộc tấn công brute-force, và chuyển thông tin cho đồng
+                nghiệp hoặc thông báo cho khách hàng.</li>
         </ul>
         <h3>GISA Solutions Vietnam - Quản lý dịch vụ CNTT (ITSM)
             <span>04/2022 – 01/2025</span></h3>
         <ul>
-            <li>Tạo và điều chỉnh các view trong Microsoft SQL Server.</li>
-            <li>Quản lý tài khoản và nhóm người dùng trong phạm vi quyền quản trị được giao.</li>
-            <li>Tạo, chỉnh sửa và duy trì tài khoản, nhóm người dùng; phân quyền truy cập.</li>
-            <li>Tiếp nhận yêu cầu dịch vụ CNTT và hỗ trợ xử lý ticket trong phạm vi trách nhiệm được giao.</li>
-            <li>Sử dụng các công cụ ITSM, đặc biệt là CA Service Desk và USU Service Management.</li>
-            <li>Phối hợp với các nhóm hỗ trợ CNTT toàn cầu để đảm bảo chất lượng dịch vụ.</li>
+            <li>Xử lý yêu cầu về quyền và tài khoản; tạo, chỉnh sửa, xóa người dùng và nhóm trong CA Service Desk.</li>
+            <li>Tạo và điều chỉnh SQL view trên MS SQL Server; lập báo cáo cho các bộ phận chuyên môn.</li>
+            <li>Thực hiện các yêu cầu như bảo trì dịch vụ, mở rộng chức năng máy chủ và nhập dữ liệu hàng loạt.</li>
+            <li>Đảm bảo tính sẵn sàng của dịch vụ (khởi động lại Tomcat, theo dõi Scoreboard) trong ca trực.</li>
             <li>Từ 01/2025, tiếp tục là thành viên nhóm ITSM và giữ các quyền quản trị được giao; chỉ thực hiện
                 các nhiệm vụ ITSM khi cần.</li>
         </ul>
@@ -578,51 +528,33 @@ const translations = {
     <h2>Kỹ năng</h2>
     <h4>Ngoại ngữ</h4>
     <ul>
-        <li>Tiếng Đức (khá)</li>
-        <li>Tiếng Anh (cơ bản)</li>
-        <li>Tiếng Việt (khá)</li>
+        <li>Tiếng Đức (B2+)</li>
+        <li>Tiếng Anh (A2)</li>
+        <li>Tiếng Việt (bản ngữ)</li>
     </ul>
     <h4>Kỹ năng CNTT</h4>
     <div class="skills-row">
         <div class="skills-col">
             <h3>Quản lý dịch vụ CNTT</h3>
             <ul>
-                <li>CA Service Desk</li>
-                <li>Jira Service Desk</li>
-                <li>USU Service Management</li>
-                <li>Xử lý ticket</li>
-            </ul>
-            <h3>Quản lý người dùng và quyền truy cập</h3>
-            <ul>
-                <li>Tài khoản người dùng</li>
-                <li>Nhóm người dùng</li>
-                <li>Quyền truy cập</li>
+                <li>CA Service Desk, USU (khá)</li>
             </ul>
             <h3>Giám sát hệ thống</h3>
             <ul>
-                <li>Zabbix</li>
-                <li>Giám sát cảnh báo</li>
-                <li>Ghi nhận ticket</li>
+                <li>Zabbix (khá)</li>
             </ul>
-            <h3>Ngôn ngữ lập trình</h3>
+            <h3>Web</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>Angular (kiến thức cơ bản)</li>
+                <li>TypeScript, Node.js, React (cơ bản)</li>
             </ul>
         </div>
         <div class="skills-col">
             <h3>Cơ sở dữ liệu</h3>
             <ul>
-                <li>Microsoft SQL Server</li>
-                <li>Tạo và điều chỉnh SQL View</li>
-                <li>SQL Server Management Studio</li>
-            </ul>
-            <h3>Công cụ khác</h3>
-            <ul>
-                <li>VS Code</li>
-                <li>Android Studio</li>
+                <li>MS SQL Server, T-SQL, View (khá)</li>
             </ul>
         </div>
     </div>
