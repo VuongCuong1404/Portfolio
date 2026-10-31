@@ -48,13 +48,13 @@ const translations = {
         download_pdf: 'Portfolio als PDF herunterladen',
         tab_cv: 'Lebenslauf',
         tab_info: 'Kontaktinfo',
-        about_title: 'Über mich',
-        about_tagline: 'IT Operations | IT Service Management | Monitoring',
-        about_description: `IT-Operations-Spezialist mit über 4 Jahren Erfahrung in 24/7-Monitoring, IT Service
-            Management und Incident-Handling bei einem deutschen IT-Dienstleister. Erfahrung in der Überwachung von
-            IT-Systemen mit Zabbix, der Ticketbearbeitung in CA Service Desk und USU, der SQL-Server-Administration
-            sowie der Teilnahme an der Rufbereitschaft. Sicher im Umgang mit Eskalationsprozessen und in der
-            Kundenkommunikation bei Systemausfällen.`,
+        about_title: 'Profil',
+        about_tagline: 'IT Operations | Incident Management | IT Service Management',
+        about_description: `IT-Operations-Spezialist mit 4+ Jahren Erfahrung in 24/7-Monitoring, Incident Management
+            und IT Service Management bei einem deutschen IT-Dienstleister. Überwachung von Kundeninfrastruktur mit
+            Zabbix, Ticketbearbeitung in CA Service Desk/USU und SQL-Server-Administration für mehrere
+            Enterprise-Kunden. Bewährt in Eskalationsprozessen, Rufbereitschaft und Kundenkommunikation bei
+            Systemausfällen.`,
         info_section: `
             <h2>Kontaktinformation</h2>
             <ul>
@@ -86,39 +86,35 @@ const translations = {
 
                 </p>
 
-                <h3>GISA Solutions Vietnam - NOC Monitoring <span>seit 01.2025</span></h3>
+                <h3>NOC Monitoring | GISA GmbH <span>seit 01/2025</span></h3>
                 <ul>
-                    <li>Rund-um-die-Uhr-Überwachung der Kundeninfrastruktur mit Zabbix; Bewertung von Alarmen und
-                        Erstellung von Tickets in CA Service Desk / USU (durchschnittlich 1 Ticket alle 30–40 Minuten
-                        im Betrieb).</li>
-                    <li>Eskalation von Störungen an die zuständigen Teams gemäß SLA sowie telefonische und
-                        schriftliche Kundeninformation bei Systemausfällen.</li>
-                    <li>Teilnahme an der Rufbereitschaft zur Sicherstellung der Verfügbarkeit.</li>
-                    <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
+                    <li>Überwachung der Kundeninfrastruktur (24/7) mit Zabbix; Bewertung und Priorisierung von
+                        Alarmen, Erstellung von ca. 9.000 Tickets/Jahr in CA Service Desk / USU.</li>
+                    <li>Sicherstellung der SLA-Vorgabe „Ticket bei System Down innerhalb von 5 Minuten“ im
+                        Schichtbetrieb.</li>
+                    <li>Eskalation an Fachteams und Information der Kunden per Telefon und E-Mail bei
+                        Systemausfällen (Incident Management).</li>
+                    <li>Teilnahme an der Rufbereitschaft; Pflege von Netzwerkdokumentation und Statusberichten.</li>
                 </ul>
 
                 <!-- <br> https://gisasolutions.vn/ -->
 
-                <h3>GISA Solutions Vietnam - SOC Monitoring
-                    <span>01.2025 – 03.2026</span>
+                <h3>SOC Monitoring <span>01/2025 – 03/2026 (parallel zum NOC)</span>
                 </h3>
                 <ul>
-                    <li>Überwachung sicherheitsrelevanter Dashboards (VPN, Firewall, Citrix, Clients,
-                        Domain Controller) für 5 Kunden mit jeweils ca. 10 Dashboards.</li>
-                    <li>Erkennung von Auffälligkeiten, z. B. Brute-Force-Versuchen, und Weitergabe an Kollegen bzw.
-                        Information der Kunden.</li>
+                    <li>Überwachung von ca. 50 Security-Dashboards (VPN, Firewall, Citrix, Clients, Domain
+                        Controller) für 5 Kunden.</li>
+                    <li>Erkennung und Meldung von Auffälligkeiten (z. B. Brute-Force-Angriffe) an Fachkollegen
+                        bzw. Kunden.</li>
                 </ul>
 
-                <h3>GISA Solutions Vietnam - IT Service Management (ITSM) <span>04.2022 – 01.2025</span></h3>
+                <h3>IT Service Management (ITSM) <span>04/2022 – 01/2025</span></h3>
                 <ul>
-                    <li>Bearbeitung von Berechtigungs- und Benutzeranfragen sowie Anlage, Änderung und Löschung von
-                        Benutzern und Gruppen in CA Service Desk.</li>
-                    <li>Erstellung und Anpassung von SQL-Views in MS SQL Server sowie Reporting für Fachbereiche.</li>
-                    <li>Umsetzung von Aufträgen wie Service-Pflege, Erweiterung von Serverfunktionen und
-                        Massenimporten.</li>
-                    <li>Sicherstellung der Verfügbarkeit (Tomcat-Neustarts, Scoreboard) im Rahmen der Bereitschaft.</li>
-                    <li>Seit 01.2025 weiterhin Mitglied der ITSM-Gruppe und mit administrativen Berechtigungen;
-                        operative ITSM-Aufgaben nur noch bei Bedarf.</li>
+                    <li>Bearbeitung von Tickets zu Berechtigungen sowie zur Benutzer- und Gruppenverwaltung in
+                        CA Service Desk.</li>
+                    <li>Entwicklung und Pflege von SQL-Views (MS SQL Server, T-SQL) sowie Reports für Fachbereiche.</li>
+                    <li>Durchführung von Massenimporten und Serveranpassungen; Sicherstellung der Verfügbarkeit im
+                        Bereitschaftsdienst.</li>
                 </ul>
     </div>
 
@@ -272,13 +268,13 @@ const translations = {
         download_pdf: 'Download portfolio as PDF',
         tab_cv: 'Resume',
         tab_info: 'Contact information',
-        about_title: 'About me',
-        about_tagline: 'IT Operations | IT Service Management | Monitoring',
-        about_description: `IT Operations Specialist with over 4 years of experience in 24/7 monitoring, IT service
-            management, and incident handling at a German IT service provider. Experienced in monitoring IT systems
-            with Zabbix, handling tickets in CA Service Desk and USU, administering SQL Server, and participating
-            in on-call duty. Confident in following escalation processes and communicating with customers during
-            system outages.`,
+        about_title: 'Profile',
+        about_tagline: 'IT Operations | Incident Management | IT Service Management',
+        about_description: `IT Operations Specialist with 4+ years of experience in 24/7 monitoring, incident
+            management, and IT service management at a German IT service provider. Monitors customer infrastructure
+            with Zabbix, handles tickets in CA Service Desk/USU, and administers SQL Server for multiple enterprise
+            customers. Proven in escalation processes, on-call duty, and customer communication during system
+            outages.`,
         info_section: `
             <h2>Contact Information</h2>
             <ul>
@@ -306,33 +302,28 @@ const translations = {
         <p><strong>GISA GmbH</strong> (Hanoi, Vietnam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
         </p>
-        <h3>GISA Solutions Vietnam - NOC Monitoring <span>Jan 2025 – Present</span></h3>
+        <h3>NOC Monitoring | GISA GmbH <span>Since Jan 2025</span></h3>
         <ul>
-            <li>Monitoring customer infrastructure around the clock with Zabbix; assessing alerts and creating
-                tickets in CA Service Desk / USU (averaging one ticket every 30–40 minutes during operations).</li>
-            <li>Escalating incidents to the responsible teams in accordance with SLAs and informing customers by
-                phone and in writing during system outages.</li>
-            <li>Participating in on-call duty to ensure service availability.</li>
-            <li>Preparing network documentation and status reports.</li>
+            <li>Monitoring customer infrastructure 24/7 with Zabbix; assessing and prioritizing alerts, and creating
+                approximately 9,000 tickets per year in CA Service Desk / USU.</li>
+            <li>Meeting the SLA requirement to create a ticket within 5 minutes of a system outage, working in
+                shifts.</li>
+            <li>Escalating incidents to specialist teams and informing customers by phone and email during system
+                outages (incident management).</li>
+            <li>Participating in on-call duty and maintaining network documentation and status reports.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - SOC Monitoring
-            <span>Jan 2025 – Mar 2026</span></h3>
+        <h3>SOC Monitoring <span>Jan 2025 – Mar 2026 (alongside NOC)</span></h3>
         <ul>
-            <li>Monitoring security-related dashboards (VPN, firewall, Citrix, clients, domain controllers) for
-                5 customers, with approximately 10 dashboards each.</li>
-            <li>Identifying unusual activity, such as brute-force attempts, and escalating it to colleagues or
-                informing customers.</li>
+            <li>Monitoring approximately 50 security dashboards (VPN, firewall, Citrix, clients, domain controllers)
+                for 5 customers.</li>
+            <li>Detecting and reporting unusual activity, such as brute-force attacks, to specialist colleagues or
+                customers.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - IT Service Management (ITSM)
-            <span>Apr 2022 – Jan 2025</span></h3>
+        <h3>IT Service Management (ITSM) <span>Apr 2022 – Jan 2025</span></h3>
         <ul>
-            <li>Handling access and user requests, including creating, changing, and deleting users and groups in
-                CA Service Desk.</li>
-            <li>Creating and modifying SQL views in MS SQL Server and preparing reports for business departments.</li>
-            <li>Completing service maintenance, server-function enhancements, and bulk imports.</li>
-            <li>Ensuring availability through Tomcat restarts and Scoreboard monitoring while on call.</li>
-            <li>Since Jan 2025, continued membership in the ITSM group and retention of assigned administrative
-                permissions; operational ITSM tasks performed only as needed.</li>
+            <li>Handling tickets related to access rights and user and group management in CA Service Desk.</li>
+            <li>Developing and maintaining SQL views (MS SQL Server, T-SQL) and reports for business departments.</li>
+            <li>Performing bulk imports and server changes, and ensuring availability while on call.</li>
         </ul>
     </div>
 
@@ -425,12 +416,13 @@ const translations = {
         download_pdf: 'Tải hồ sơ dưới dạng PDF',
         tab_cv: 'Sơ yếu lý lịch',
         tab_info: 'Thông tin liên hệ',
-        about_title: 'Giới thiệu',
-        about_tagline: 'Vận hành CNTT | Quản lý dịch vụ CNTT | Giám sát hệ thống',
-        about_description: `Chuyên viên vận hành CNTT với hơn 4 năm kinh nghiệm giám sát 24/7, quản lý dịch vụ CNTT
-            và xử lý sự cố tại một công ty dịch vụ CNTT của Đức. Có kinh nghiệm giám sát hệ thống bằng Zabbix,
-            xử lý ticket trên CA Service Desk và USU, quản trị SQL Server và tham gia trực hỗ trợ. Thành thạo quy
-            trình chuyển cấp sự cố và giao tiếp với khách hàng khi hệ thống gặp sự cố.`,
+        about_title: 'Hồ sơ',
+        about_tagline: 'Vận hành CNTT | Quản lý sự cố | Quản lý dịch vụ CNTT',
+        about_description: `Chuyên viên vận hành CNTT với hơn 4 năm kinh nghiệm giám sát 24/7, quản lý sự cố và
+            quản lý dịch vụ CNTT tại một công ty dịch vụ CNTT của Đức. Giám sát hạ tầng khách hàng bằng Zabbix,
+            xử lý ticket trên CA Service Desk/USU và quản trị SQL Server cho nhiều khách hàng doanh nghiệp. Có
+            kinh nghiệm trong quy trình chuyển cấp sự cố, trực hỗ trợ và giao tiếp với khách hàng khi hệ thống
+            gặp sự cố.`,
         info_section: `
         <h2>Thông tin liên hệ</h2>
         <ul>
@@ -458,32 +450,27 @@ const translations = {
         <p><strong>GISA GmbH</strong> (Hà Nội, Việt Nam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
         </p>
-        <h3>GISA Solutions Vietnam - Giám sát NOC <span>Từ 01/2025 – hiện nay</span></h3>
+        <h3>Giám sát NOC | GISA GmbH <span>Từ 01/2025</span></h3>
         <ul>
-            <li>Giám sát hạ tầng khách hàng 24/7 bằng Zabbix; đánh giá cảnh báo và tạo ticket trên CA Service Desk /
-                USU (trung bình 1 ticket mỗi 30–40 phút trong ca vận hành).</li>
-            <li>Chuyển cấp sự cố đến các nhóm phụ trách theo SLA; thông báo cho khách hàng qua điện thoại và văn bản
-                khi hệ thống gặp sự cố.</li>
-            <li>Tham gia trực hỗ trợ để đảm bảo tính sẵn sàng của dịch vụ.</li>
-            <li>Lập tài liệu mạng và báo cáo trạng thái.</li>
+            <li>Giám sát hạ tầng khách hàng 24/7 bằng Zabbix; đánh giá, ưu tiên cảnh báo và tạo khoảng 9.000 ticket
+                mỗi năm trên CA Service Desk / USU.</li>
+            <li>Đảm bảo yêu cầu SLA tạo ticket trong vòng 5 phút khi hệ thống ngừng hoạt động trong ca làm việc.</li>
+            <li>Chuyển cấp sự cố đến các nhóm chuyên môn và thông báo cho khách hàng qua điện thoại, email khi hệ
+                thống gặp sự cố (quản lý sự cố).</li>
+            <li>Tham gia trực hỗ trợ; duy trì tài liệu mạng và báo cáo trạng thái.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - Giám sát SOC
-            <span>01/2025 – 03/2026</span></h3>
+        <h3>Giám sát SOC <span>01/2025 – 03/2026 (song song với NOC)</span></h3>
         <ul>
-            <li>Giám sát các dashboard an ninh (VPN, firewall, Citrix, máy trạm, domain controller) cho 5 khách hàng,
-                mỗi khách hàng có khoảng 10 dashboard.</li>
-            <li>Phát hiện dấu hiệu bất thường, ví dụ các cuộc tấn công brute-force, và chuyển thông tin cho đồng
-                nghiệp hoặc thông báo cho khách hàng.</li>
+            <li>Giám sát khoảng 50 dashboard an ninh (VPN, firewall, Citrix, máy trạm, domain controller) cho
+                5 khách hàng.</li>
+            <li>Phát hiện và báo cáo dấu hiệu bất thường, ví dụ tấn công brute-force, cho đồng nghiệp chuyên môn
+                hoặc khách hàng.</li>
         </ul>
-        <h3>GISA Solutions Vietnam - Quản lý dịch vụ CNTT (ITSM)
-            <span>04/2022 – 01/2025</span></h3>
+        <h3>Quản lý dịch vụ CNTT (ITSM) <span>04/2022 – 01/2025</span></h3>
         <ul>
-            <li>Xử lý yêu cầu về quyền và tài khoản; tạo, chỉnh sửa, xóa người dùng và nhóm trong CA Service Desk.</li>
-            <li>Tạo và điều chỉnh SQL view trên MS SQL Server; lập báo cáo cho các bộ phận chuyên môn.</li>
-            <li>Thực hiện các yêu cầu như bảo trì dịch vụ, mở rộng chức năng máy chủ và nhập dữ liệu hàng loạt.</li>
-            <li>Đảm bảo tính sẵn sàng của dịch vụ (khởi động lại Tomcat, theo dõi Scoreboard) trong ca trực.</li>
-            <li>Từ 01/2025, tiếp tục là thành viên nhóm ITSM và giữ các quyền quản trị được giao; chỉ thực hiện
-                các nhiệm vụ ITSM khi cần.</li>
+            <li>Xử lý ticket liên quan đến quyền truy cập, quản lý người dùng và nhóm trên CA Service Desk.</li>
+            <li>Phát triển và duy trì SQL view (MS SQL Server, T-SQL) cùng báo cáo cho các bộ phận chuyên môn.</li>
+            <li>Thực hiện nhập dữ liệu hàng loạt, điều chỉnh máy chủ và đảm bảo tính sẵn sàng trong ca trực.</li>
         </ul>
     </div>
 
